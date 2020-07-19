@@ -1,4 +1,7 @@
-# Simple Ecommerce Shopping Cart - Vuejs, Vuex , BootstrapVue , Json-server
+## Simple Ecommerce Shopping Cart - Vuejs, Vuex , BootstrapVue , Json-server
+
+<br />
+<br />
 
 ![Simple Ecommerce Shopping Cart - Vuejs, Vuex , BootstrapVue , Json-server](https://raw.githubusercontent.com/nazmulpro/vue-master-shop/master/demo.PNG)
 
