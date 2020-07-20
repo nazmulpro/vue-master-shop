@@ -9,7 +9,6 @@
       :title="product.name"
       hide-footer
     >
-
       <template v-slot:default>
         <template>
           <div class="pd-image centeret">
