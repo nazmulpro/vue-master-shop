@@ -22,7 +22,7 @@
             ></b-img>
           </div>
 
-          <div class="pt-4 ">
+          <div class="pt-4">
             <h6 class="text-center">Price : {{ product.price | currency }}</h6>
             <p>{{ product.description }}</p>
             <div class="pt-4 pb-4 text-center">
@@ -31,7 +31,7 @@
                 v-show="product.quantity > 0"
                 variant="danger"
                 @click="removeFromCart"
-                class=""
+                class
               >
                 <font-awesome-icon icon="minus" class="mr-1" />
               </b-button>
@@ -39,18 +39,16 @@
               <b-button
                 size="sm"
                 v-show="product.quantity > 0"
-                variant="warning"
-                @click="addToCart"
-                class=""
-                >{{ product.quantity }} in cart</b-button
-              >
+                variant="light"
+                class
+              >{{ product.quantity }} in cart</b-button>
 
               <b-button
                 size="sm"
                 v-show="product.quantity === 0"
-                variant="primary"
+                variant="light"
                 @click="addToCart"
-                class=""
+                class
               >
                 <font-awesome-icon icon="shopping-cart" class="mr-1" />Add to
                 cart
@@ -59,9 +57,9 @@
               <b-button
                 size="sm"
                 v-show="product.quantity > 0"
-                variant="primary"
+                variant="secondary"
                 @click="addToCart"
-                class=""
+                class
               >
                 <font-awesome-icon icon="plus" class="mr-1" />
               </b-button>
